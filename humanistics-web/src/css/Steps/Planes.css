@@ -1,0 +1,196 @@
+
+.welcome.plans {
+    padding: 4em 3em 3em 3em;
+}
+
+
+.title-plans{
+    margin-bottom: 2em;
+}
+
+.plan-card .selected-container {
+    position: absolute;
+    top: -18px;
+    left: calc(50% - 25px);
+    width: 65px;
+    background: red;
+    padding: 5px 6px;
+    text-align: center;
+    border-radius: 100px;
+    box-shadow: -2px -1px 5px rgb(161 193 235 / 41%);
+    color: white;
+}
+
+.plan-card{
+    width: 100% !important;
+    max-width: 300px;
+    margin: 0px auto;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    box-shadow: -2px -1px 5px rgba(161, 193, 235, 0.41);
+    border-radius: 6px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.plan-card .btn-pay{
+    background: #492AF9;
+    box-shadow: -4px -2px 16px #FFFFFF, 4px 2px 16px rgba(95, 157, 231, 0.48);
+    border-radius: 9px;
+    color: #FFFFFF;
+
+}
+
+
+.plan-card .btn-pay span{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    
+    color: #FFFFFF;
+}
+
+
+
+.plan-card .ant-card-head {
+    margin-top: 1.5em;
+    box-shadow: -4px -2px 16px #FFFFFF, 4px 2px 16px rgba(95, 157, 231, 0.48);
+    font-size: 23px;
+    text-transform: uppercase;
+}
+
+
+.plan-card .ant-card-head-title{
+    padding: 10px 0;
+}
+
+
+.plan-card .prospectos-input {
+    font-size: 23px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #7E97B8;    
+}
+
+.plan-card .prospectos-input{
+    margin-top: 0.5em;
+    margin-bottom: 0.2em;
+    border-radius: 1000px;
+}
+
+.plan-card .prospectos-input .ant-input-number-input-wrap{
+    position: absolute;
+    bottom: -9px;
+}
+
+.plan-card .prospectos-mes{
+
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #7E97B8;
+}
+
+.plan-card .prospecto{
+    font-size: 23px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #7E97B8;
+}
+
+
+.plan-card .radio-time{
+    display: flex;
+    justify-content: center;
+}
+
+.plan-card .ant-card-head .ant-card-head-title{
+    text-align: center;
+}
+
+.plan-card .plan-cost{
+    margin-top: 1em;
+}
+.plan-card .plan-cost .ant-statistic-content{
+    text-align: center;
+    color: #C146ED;
+}
+
+.plan-card .plan-cost .ant-card-head-title{
+    text-align: center;
+}
+
+.plan-card .plan-cost .ant-statistic-content-suffix{
+    font-size: 18px;
+}
+
+.plan-card  .plan-cost .ant-statistic-content-prefix{
+    font-size: 22px;
+    position: relative;
+    bottom: 8px;
+}
+
+.plan-card .plan-cost .ant-statistic-content-value-int{
+    font-size: 35px;
+}
+
+.plan-card .ant-card-meta-description{
+    text-align: center;
+    margin: 1.5em 0;
+}
+
+.plan-card .ant-list-item-meta-description{
+    text-align: center;
+}
+
+.plan-card .plan-list-descriptions .ant-list-item {
+    margin: 0px auto;
+    justify-content: center;
+    letter-spacing: 0.2px;
+    color: #7E97B8;
+
+    font-size: 15px;
+}
+
+
+.plan-card .plan-list-descriptions .ant-list-item:nth-child(even) {
+    font-weight: bold;
+}
+
+
+.plan-card .button.ant-btn.ant-btn-primary.btn-get {
+    margin: 5px auto;
+    display: block;
+}
+
+.plan-card .btn-get{
+    margin: auto;
+    display: block;
+}
+
+
+/* Modal de Pago */
+
+.modal-payment .ant-card{
+    border: none;
+    box-shadow: none;
+}
+
+.modal-payment #payment-processor{
+    border: none;
+    box-shadow: none !important;
+}
+
+.modal-payment .ant-card-head{
+    border: none;
+    box-shadow: none !important;
+}
+
+.modal-payment .ant-tabs-nav{
+    display: none;
+}

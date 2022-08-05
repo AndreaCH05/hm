@@ -1,0 +1,59 @@
+{
+  "name": "humanistics-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "command": "node ./commands.js  ",
+    "start": "nodemon ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blah-iseeyou/humanistics-server.git"
+  },
+  "ssl": false,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blah-iseeyou/humanistics-server/issues"
+  },
+  "homepage": "https://github.com/blah-iseeyou/humanistics-server#readme",
+  "dependencies": {
+    "app-root-path": "^3.0.0",
+    "axios": "^0.21.1",
+    "base32": "0.0.6",
+    "base64url": "^3.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "csv": "^5.3.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.7-alpha.3",
+    "express-validator": "^6.4.0",
+    "facebook-nodejs-business-sdk": "^7.0.2",
+    "fb": "^2.0.0",
+    "http": "0.0.0",
+    "https": "^1.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "lorem-ipsum": "^2.0.3",
+    "mime": "^2.4.4",
+    "moment": "^2.29.1",
+    "mongoose": "^5.9.5",
+    "mongoose-aggregate-paginate-v2": "^1.0.4",
+    "mongoose-paginate-v2": "^1.3.9",
+    "mongoose-validation-error-handler": "^2.0.3",
+    "mongoose-validator": "^2.1.0",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.4.8",
+    "nodemailer-express-handlebars": "^4.0.0",
+    "qs": "^6.10.1",
+    "sharp": "^0.28.0",
+    "socket.io": "^4.0.1",
+    "socketio-file-upload": "^0.7.3",
+    "stripe": "^8.52.0"
+  }
+}

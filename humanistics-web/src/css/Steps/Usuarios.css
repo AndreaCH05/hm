@@ -1,0 +1,66 @@
+.list-employees{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.list-employees .ant-list-items{
+    max-height: 340px;
+    overflow: auto;
+}
+
+.list-employees   .ant-list-header,
+.list-employees  .ant-list-item  
+{
+    border-bottom: none !important
+}
+ 
+
+.list-employees .ant-list-item{
+    padding: 0px !important;
+    padding-bottom: 10px !important;
+
+}
+
+.list-employees .txt-Titulo{
+    font-size: 15px;
+    text-align: center;
+    font-weight: 600;
+    color:#555 !important;
+}
+
+.list-employees .ant-card {
+    width: 100%;
+    border-radius: 10px;
+   
+    background: #FFFFFF;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    box-shadow: 1px 1px 4px 1px #EBEBEB;
+    border-radius: 10px;
+    min-height: 50px;
+    vertical-align: middle;
+    padding: 0x !important;
+}
+
+
+.list-employees .ant-card-body {
+    padding: 0px  !important;
+}
+
+
+.list-employees strong{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+
+    color: #7E97B8;
+}
+
+.list-employees .ant-typography{
+    color: #7E97B8;
+}

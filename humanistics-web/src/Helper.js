@@ -1,0 +1,5 @@
+const SDK_FACEBOOK = '359784655002061';
+
+export {
+    SDK_FACEBOOK
+}

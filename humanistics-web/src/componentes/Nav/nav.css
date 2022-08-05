@@ -1,0 +1,357 @@
+.sidebar{
+    background: none;
+
+}
+
+
+.sidebar .sidebar-content{
+    min-height: 100vh;
+    width: 100%;
+    background: #261DC3;
+    border-radius: 0 25px 25px 0;
+
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.sidebar .ant-layout-sider-children{
+    padding-left: 0!important;
+}
+
+.projects{
+    display: inline-block;
+    background: #261DC3;
+    height: 100%;
+    width: 50px;
+    /*min-width: 50px;*/
+    max-width: 50px;
+}
+
+
+.projects .proyects-container{
+    padding: 5px;
+    justify-content: center;
+}
+.projects .proyects-container .button{
+    padding: 0;
+    margin: 5px;
+    height: 30px !important;
+    width: 30px !important;
+}
+
+.project-tooltip .logo{
+    width: 50px;
+    float: right;
+    text-align: justify;
+}
+
+
+/*.projects *,*/
+.projects img
+{
+    max-width: calc(100% - 5px);
+}
+
+
+.projects .proyects-container .button{
+    border: none;
+}
+
+.projects .proyects-container .button .line-button{
+    position: absolute;
+    width: 3px;
+    height: 30px;
+    background: white;
+    top: -1px;
+    right: -10px;
+}
+
+.sider-menu img{
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+.sider-menu .menu{
+    background: none !important;
+}
+.sider-menu{
+    display: inline-block;
+    background: #492AF9;
+    height: 100vh;
+    width: calc(100% - 50px);
+    border-radius: 0 25px 25px 0;
+    float: right;
+}
+
+
+.sider-menu .ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background-color: #FFF ;
+    transition-duration: 0.01s !important;
+}
+
+ 
+.ant-layout-has-sider
+{
+    /* background-color: #261DC3;  */
+    height: 100%;
+}
+
+.nav_color{
+    background-color: #261DC3;
+    min-height: 100vh !important;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 90% !important;
+}
+
+.nav_item{
+    border-radius: 0px;
+    background: linear-gradient(145deg, #785aff, #654cdc);
+    box-shadow:  5px 5px 17px #342770,
+    -5px -5px 17px #ac81ff;
+
+    background: transparent;
+    box-shadow:  none;
+}
+
+.main-menu-container{
+    height: 100%;
+    width: 100%;
+}
+
+.nav_item:first-child {
+    border-top-right-radius: 5px;
+}
+
+.nav_sub_item{
+    color:#FFFF;
+    border-radius: 0px;
+    background: linear-gradient(225deg, #5c42cf, #4d38ae);
+    box-shadow:  -6px 6px 11px #2e2166,
+    6px -6px 11px #7e5bff;
+    box-shadow:  none;
+}
+
+.IconToggle{
+    font-size: 20pt;
+    font-weight: 900;
+    color:#e8e6f3;
+    padding: 10px;
+
+}
+
+.ant-layout .ant-layout-has-sider > aside.nav_color
+{
+    /* border-left: solid 35px #261DC3 !important; */
+    padding-left: 35px;
+    min-width: 150px !important;
+    height: 100%;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+
+}
+
+
+.ant-layout .ant-layout-has-sider  .ant-layout-sider-children{
+    min-width: 100px;
+    padding-left: 5px;
+    height: 100% !important;
+}
+
+/*492AF9*/
+
+
+.ant-menu.ant-menu-dark, .ant-menu-dark .ant-menu-sub {
+    background: #492AF9;
+}
+.ant-layout .ant-layout-has-sider
+.ant-menu-item-selected{
+    background: #FFF;
+    color: #492af9 !important;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+.ant-menu-item-selected > span{
+    color: #492af9 !important;
+}
+
+.ant-menu .nav_color .ant-menu-dark .ant-menu-root .ant-menu-inline
+{
+    background: blue;
+}
+
+.ant-menu-dark .ant-menu-inline.ant-menu-sub {
+    background: transparent;
+}
+/*
+.div-Badge{
+    background: #261DC3;
+    height: 100%;
+    width: 40px;
+    float: left;
+    position: absolute;
+    margin-left: -45px;
+}
+
+
+.identificador-proyecto
+{
+    content:' ';
+    border-radius: 5px;
+    border: solid 1px rgba(255, 255, 255, 0.144);
+    width:  25px;
+    height: 25px;
+    margin: 7px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    float: left;
+    display: table-cell;
+    vertical-align: bottom;
+    padding: 5px;
+    padding-top: 12px;
+    text-align: center;
+ }
+
+ .identificador-proyecto a
+{
+    font-size: 11px;
+    color:#fff;
+    vertical-align: auto;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.651);
+ }
+
+
+ ul.nav_color {
+     margin-left: 5px;
+ } */
+
+/*
+.li-proyecto::before
+{
+     position: fixed;
+     content:' ';
+     display: block;
+     border-radius: 50px;
+     margin-left: -35px;
+     width: 25px;
+     height: 25px;
+     border: solid 1px rgba(255, 255, 255, 0.274);
+ } */
+
+.li-usuario{
+    margin-left: 40px !important;
+    margin-bottom: 15px !important;
+    width: 100%;
+    bottom:0;
+    position: relative;
+    display: block;
+    float: right;
+}
+
+.iconUser{
+    background-color: coral !important;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    bottom:0;
+    padding-top:5px;
+    border-radius: 5px;
+    border: solid 1.5px rgba(255, 255, 255, 0.363);
+}
+
+.iconLogOut{
+    background-color: #261dc3 !important;
+    color:#FFF;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    bottom:0;
+    padding-top:5px;
+    border-radius: 5px;
+    border: solid 1.5px rgba(255, 255, 255, 0.363);
+
+}
+
+.row-Proyecto{
+    display: inline-block;
+    height: auto;
+    min-height: 100px;
+    padding: 20px 5px 20px 5px ;
+}
+
+.row-Proyecto label{
+    width: 100%;
+    float: initial !important;
+
+}
+
+#nombreProyecto{
+    font-size: 20px;
+    text-align: left;
+    vertical-align: text-bottom;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    margin-bottom: 5px;
+    width: 100% !important;
+    height: 100% !important;
+    font-weight: bold;
+    padding-top: 5px;
+
+    font-weight:bold;
+    line-height: 1.5 !important;
+
+}
+
+#idProyecto{
+    color:transparent
+}
+
+
+.menu-lateral{
+    background: #170ec3;
+    height: 100%;
+    width: 40px;
+    float: left;
+    position: absolute;
+    margin-left: -45px;
+
+}
+
+
+.li-proyecto
+{
+    content:' ';
+    border-radius: 5px;
+    border: solid 1.5px rgba(255, 255, 255, 0.24);
+    margin: 10px;
+    display: inline;
+    vertical-align: bottom;
+    padding: 5px;
+    padding-top: 12px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 15px;
+    width:  25px;
+    height: 25px;
+    margin-bottom: 15px;
+    float: left;
+
+
+}
+
+.pro-name{
+    font-size: 10px;
+    color:#fff;
+    vertical-align: auto;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.651);
+}
+
+
+@media (min-height: 400px) {
+    .li-usuario{
+        position: absolute !important;
+    }
+}

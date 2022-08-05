@@ -1,0 +1,30 @@
+.welcome{
+    padding: 15% 3em 3em 3em;
+}
+
+.welcome *{
+    font-family: 'Rubik', sans-serif !important;
+}
+
+.welcome .title{
+    font-size: 4em;
+    margin-bottom: 1em;
+}
+
+
+.welcome .parragraph,
+.parragraph
+{
+    margin-top: 2em;
+    font-size: 1.5em;
+}
+
+.welcome .btn-continue{
+  margin-top: 1.5em;;
+}
+
+
+
+
+
+

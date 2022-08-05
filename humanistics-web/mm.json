@@ -1,0 +1,306 @@
+{
+  "success": true,
+  "message": "Proyectos asignados del usuario.",
+  "data": [
+    {
+      "_id": "5eb376c612c2eb700d179cb5",
+      "STATUS_GROUP": [
+        {
+          "STATUS": "5eb376c612c2eb700d179cb7",
+          "max": 512
+        },
+        {
+          "STATUS": "5eb376c612c2eb700d179cb8",
+          "max": 488
+        }
+      ],
+      "proyecto": {
+        "_id": "5eb376c612c2eb700d179cb5",
+        "logo": "",
+        "activo": true,
+        "nombre": "Sistemas 4",
+        "producto_servicio": "PRODUCTO SERVICIO",
+        "industria_id": "5eaf8ac88f1b970347707354",
+        "descripcion_general": "Descripcion general ",
+        "prospectos_deseados": 50000,
+        "pagina_web": "www.im.com",
+        "facebook": "www.facebook.com/elemento",
+        "instagram": "www.instagram.com/elemento",
+        "usuario_id": "5eb376c412c2eb700d1794dd",
+        "createdAt": "2020-05-07T02:47:34.265Z",
+        "updatedAt": "2020-05-07T02:47:34.265Z",
+        "__v": 0
+      },
+      "estatus": [
+        {
+          "_id": "5eb376c612c2eb700d179cb7",
+          "color": "0386FF",
+          "nombre": "Contacto",
+          "descripcion": "Se inicia el primer contacto con el cliente.",
+          "ponderacion": {
+            "$numberDecimal": "10"
+          },
+          "proyectos_id": "5eb376c612c2eb700d179cb5",
+          "usuarios_id": "5eb376c412c2eb700d1794dd",
+          "__v": 0,
+          "createdAt": "2020-05-07T02:47:34.267Z",
+          "updatedAt": "2020-05-07T02:47:34.267Z"
+        },
+        {
+          "_id": "5eb376c612c2eb700d179cb8",
+          "color": "00FF0A",
+          "nombre": "Oracion",
+          "descripcion": "Alberto Virrey",
+          "ponderacion": {
+            "$numberDecimal": "20"
+          },
+          "proyectos_id": "5eb376c612c2eb700d179cb5",
+          "usuarios_id": "5eb376c412c2eb700d1794dd",
+          "__v": 0,
+          "createdAt": "2020-05-07T02:47:34.268Z",
+          "updatedAt": "2020-05-07T02:47:34.268Z"
+        }
+      ]
+    },
+    {
+      "_id": "5eb376c812c2eb700d17a48a",
+      "STATUS_GROUP": [
+        {
+          "STATUS": "5eb376c812c2eb700d17a48c",
+          "max": 520
+        },
+        {
+          "STATUS": "5eb376c812c2eb700d17a48d",
+          "max": 480
+        }
+      ],
+      "proyecto": {
+        "_id": "5eb376c812c2eb700d17a48a",
+        "logo": "",
+        "activo": true,
+        "nombre": "Sistemas 4",
+        "producto_servicio": "PRODUCTO SERVICIO",
+        "industria_id": "5eaf8ac88f1b970347707354",
+        "descripcion_general": "Descripcion general ",
+        "prospectos_deseados": 50000,
+        "pagina_web": "www.im.com",
+        "facebook": "www.facebook.com/elemento",
+        "instagram": "www.instagram.com/elemento",
+        "usuario_id": "5eb376c412c2eb700d1794dd",
+        "createdAt": "2020-05-07T02:47:36.089Z",
+        "updatedAt": "2020-05-07T02:47:36.089Z",
+        "__v": 0
+      },
+      "estatus": [
+        {
+          "_id": "5eb376c812c2eb700d17a48c",
+          "color": "0386FF",
+          "nombre": "Contacto",
+          "descripcion": "Se inicia el primer contacto con el cliente.",
+          "ponderacion": {
+            "$numberDecimal": "10"
+          },
+          "proyectos_id": "5eb376c812c2eb700d17a48a",
+          "usuarios_id": "5eb376c412c2eb700d1794dd",
+          "__v": 0,
+          "createdAt": "2020-05-07T02:47:36.092Z",
+          "updatedAt": "2020-05-07T02:47:36.092Z"
+        },
+        {
+          "_id": "5eb376c812c2eb700d17a48d",
+          "color": "00FF0A",
+          "nombre": "Oracion",
+          "descripcion": "Alberto Virrey",
+          "ponderacion": {
+            "$numberDecimal": "20"
+          },
+          "proyectos_id": "5eb376c812c2eb700d17a48a",
+          "usuarios_id": "5eb376c412c2eb700d1794dd",
+          "__v": 0,
+          "createdAt": "2020-05-07T02:47:36.092Z",
+          "updatedAt": "2020-05-07T02:47:36.092Z"
+        }
+      ]
+    },
+    {
+      "_id": "5eb376cb12c2eb700d17ac5f",
+      "STATUS_GROUP": [
+        {
+          "STATUS": "5eb376cb12c2eb700d17ac62",
+          "max": 507
+        },
+        {
+          "STATUS": "5eb376cb12c2eb700d17ac61",
+          "max": 493
+        }
+      ],
+      "proyecto": {
+        "_id": "5eb376cb12c2eb700d17ac5f",
+        "logo": "",
+        "activo": true,
+        "nombre": "Sistemas 4",
+        "producto_servicio": "PRODUCTO SERVICIO",
+        "industria_id": "5eaf8ac88f1b970347707354",
+        "descripcion_general": "Descripcion general ",
+        "prospectos_deseados": 50000,
+        "pagina_web": "www.im.com",
+        "facebook": "www.facebook.com/elemento",
+        "instagram": "www.instagram.com/elemento",
+        "usuario_id": "5eb376c412c2eb700d1794dd",
+        "createdAt": "2020-05-07T02:47:39.742Z",
+        "updatedAt": "2020-05-07T02:47:39.742Z",
+        "__v": 0
+      },
+      "estatus": [
+        {
+          "_id": "5eb376cb12c2eb700d17ac61",
+          "color": "0386FF",
+          "nombre": "Contacto",
+          "descripcion": "Se inicia el primer contacto con el cliente.",
+          "ponderacion": {
+            "$numberDecimal": "10"
+          },
+          "proyectos_id": "5eb376cb12c2eb700d17ac5f",
+          "usuarios_id": "5eb376c412c2eb700d1794dd",
+          "__v": 0,
+          "createdAt": "2020-05-07T02:47:39.747Z",
+          "updatedAt": "2020-05-07T02:47:39.747Z"
+        },
+        {
+          "_id": "5eb376cb12c2eb700d17ac62",
+          "color": "00FF0A",
+          "nombre": "Oracion",
+          "descripcion": "Alberto Virrey",
+          "ponderacion": {
+            "$numberDecimal": "20"
+          },
+          "proyectos_id": "5eb376cb12c2eb700d17ac5f",
+          "usuarios_id": "5eb376c412c2eb700d1794dd",
+          "__v": 0,
+          "createdAt": "2020-05-07T02:47:39.747Z",
+          "updatedAt": "2020-05-07T02:47:39.747Z"
+        }
+      ]
+    },
+    {
+      "_id": "5eb376cd12c2eb700d17b434",
+      "STATUS_GROUP": [
+        {
+          "STATUS": "5eb376cd12c2eb700d17b436",
+          "max": 522
+        },
+        {
+          "STATUS": "5eb376cd12c2eb700d17b437",
+          "max": 478
+        }
+      ],
+      "proyecto": {
+        "_id": "5eb376cd12c2eb700d17b434",
+        "logo": "",
+        "activo": true,
+        "nombre": "Sistemas 4",
+        "producto_servicio": "PRODUCTO SERVICIO",
+        "industria_id": "5eaf8ac88f1b970347707354",
+        "descripcion_general": "Descripcion general ",
+        "prospectos_deseados": 50000,
+        "pagina_web": "www.im.com",
+        "facebook": "www.facebook.com/elemento",
+        "instagram": "www.instagram.com/elemento",
+        "usuario_id": "5eb376c412c2eb700d1794dd",
+        "createdAt": "2020-05-07T02:47:41.569Z",
+        "updatedAt": "2020-05-07T02:47:41.569Z",
+        "__v": 0
+      },
+      "estatus": [
+        {
+          "_id": "5eb376cd12c2eb700d17b436",
+          "color": "0386FF",
+          "nombre": "Contacto",
+          "descripcion": "Se inicia el primer contacto con el cliente.",
+          "ponderacion": {
+            "$numberDecimal": "10"
+          },
+          "proyectos_id": "5eb376cd12c2eb700d17b434",
+          "usuarios_id": "5eb376c412c2eb700d1794dd",
+          "__v": 0,
+          "createdAt": "2020-05-07T02:47:41.626Z",
+          "updatedAt": "2020-05-07T02:47:41.626Z"
+        },
+        {
+          "_id": "5eb376cd12c2eb700d17b437",
+          "color": "00FF0A",
+          "nombre": "Oracion",
+          "descripcion": "Alberto Virrey",
+          "ponderacion": {
+            "$numberDecimal": "20"
+          },
+          "proyectos_id": "5eb376cd12c2eb700d17b434",
+          "usuarios_id": "5eb376c412c2eb700d1794dd",
+          "__v": 0,
+          "createdAt": "2020-05-07T02:47:41.627Z",
+          "updatedAt": "2020-05-07T02:47:41.627Z"
+        }
+      ]
+    },
+    {
+      "_id": "5eb376c412c2eb700d1794e0",
+      "STATUS_GROUP": [
+        {
+          "STATUS": "5eb376c412c2eb700d1794e2",
+          "max": 526
+        },
+        {
+          "STATUS": "5eb376c412c2eb700d1794e3",
+          "max": 474
+        }
+      ],
+      "proyecto": {
+        "_id": "5eb376c412c2eb700d1794e0",
+        "logo": "",
+        "activo": true,
+        "nombre": "Sistemas 4",
+        "producto_servicio": "PRODUCTO SERVICIO",
+        "industria_id": "5eaf8ac88f1b970347707354",
+        "descripcion_general": "Descripcion general ",
+        "prospectos_deseados": 50000,
+        "pagina_web": "www.im.com",
+        "facebook": "www.facebook.com/elemento",
+        "instagram": "www.instagram.com/elemento",
+        "usuario_id": "5eb376c412c2eb700d1794dd",
+        "createdAt": "2020-05-07T02:47:32.122Z",
+        "updatedAt": "2020-05-07T02:47:32.122Z",
+        "__v": 0
+      },
+      "estatus": [
+        {
+          "_id": "5eb376c412c2eb700d1794e2",
+          "color": "0386FF",
+          "nombre": "Contacto",
+          "descripcion": "Se inicia el primer contacto con el cliente.",
+          "ponderacion": {
+            "$numberDecimal": "10"
+          },
+          "proyectos_id": "5eb376c412c2eb700d1794e0",
+          "usuarios_id": "5eb376c412c2eb700d1794dd",
+          "__v": 0,
+          "createdAt": "2020-05-07T02:47:32.129Z",
+          "updatedAt": "2020-05-07T02:47:32.129Z"
+        },
+        {
+          "_id": "5eb376c412c2eb700d1794e3",
+          "color": "00FF0A",
+          "nombre": "Oracion",
+          "descripcion": "Alberto Virrey",
+          "ponderacion": {
+            "$numberDecimal": "20"
+          },
+          "proyectos_id": "5eb376c412c2eb700d1794e0",
+          "usuarios_id": "5eb376c412c2eb700d1794dd",
+          "__v": 0,
+          "createdAt": "2020-05-07T02:47:32.130Z",
+          "updatedAt": "2020-05-07T02:47:32.130Z"
+        }
+      ]
+    }
+  ]
+}

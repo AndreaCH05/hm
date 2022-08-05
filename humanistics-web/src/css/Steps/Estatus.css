@@ -1,0 +1,198 @@
+.estatus{
+    padding: 3em 3em 3em 3em;
+    max-height: 100vh;
+    overflow: auto;
+}
+
+.estatus .title{
+    font-size: 3em;
+}
+
+.status-list{
+    width: 100%;
+    max-width: 576px;
+    min-height: 150px;
+    /*overflow: auto;*/
+    margin-bottom: 1em;
+    /*max-height: 31vh;*/
+}
+
+.empty-state{
+    position: absolute;
+    top: 15px;
+
+    /*left: 0;*/
+}
+
+.modal-explanation{
+    max-width: 992px  !important;
+    width: calc(100% - 20px) !important;;
+}
+
+.status-card-container{
+    margin-left: 2px;
+    width: calc(100% - 35px);
+    position: relative;
+    height: 70px;
+}
+
+.status-card-container .status-card{
+    width: 100%;
+    background: #FFFFFF;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    box-shadow: 1px 1px 4px 1px #EBEBEB;
+    border-radius: 9px;
+    margin-bottom: 0.5em;
+
+    padding: 0.5em;
+}
+
+.status-card-container .status-card .status-name{
+    text-align: start;
+}
+
+.status-card-container  .status-value{
+    height: 50px;
+    padding-top: 3px;
+}
+.status-card-container  .ant-input-number-handler-wrap {
+    /*position: absolute;*/
+    /*right: -14px;*/
+    /*!* border: 1px solid; *!*/
+    /*border-bottom-right-radius: 8px;*/
+    /*border-top-right-radius: 8px;*/
+    display: none;
+}
+
+
+.status-card-container .status-card .icon{
+    font-size: 22px;
+    position: relative;
+    right: 7px;
+    top: 6px;
+}
+
+
+
+
+.status-card-container .status-card .status-text{
+    font-size: 16px;
+    border-color: transparent !important;
+    box-shadow: none !important;
+    outline: none !important;
+    position: relative;
+    left: 3px;
+}
+
+.status-card-container .status-card .status-avatar{
+
+    z-index: 1;
+}
+
+.status-card-container .status-card .status-text:focus{
+    border-color: transparent !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.status-card-container .status-value{
+    box-shadow: 1px 1px 4px 1px #EBEBEB;
+    border: none;
+    border-radius: 9px;
+}
+
+
+.status-card-container .btn-delete-status,
+.status-card-container .btn-delete-status:hover,
+.status-card-container .btn-delete-status:focus {
+    border-color: transparent !important;
+    position: relative;
+    background: red;
+    display: block;
+    top: 12px;
+    right: 5px;
+}
+
+.btn-add-status{
+    float: right;
+}
+
+
+.list-container-row-title,
+.list-container-row {
+    /*display: block!important;*/
+    position: relative;
+    width: 100%;
+    max-width: 576px;
+    justify-content: center;
+    margin-left: auto!important;;
+    margin-right: auto !important;
+}
+
+.list-container-row-title{
+
+    margin-bottom: 0.5em;
+}
+
+.list-container-row{
+    /*padding: ;*/
+    margin-bottom: 1em;
+}
+
+.list-title{
+    font-size: 1.5em !important;
+}
+
+
+.sortable-ghost {
+    opacity: 0.8 !important;
+}
+
+
+.btn-add-status,
+.btn-add-status:hover,
+.btn-add-status:focus{
+    height: 50px;
+    width: 50px;
+    padding-top: 3px;
+    position: relative;
+    right: 30px;
+
+
+    background: #F800FF;
+    /*border: 2px solid rgba(255, 255, 255, 0.3);*/
+    box-sizing: border-box;
+    box-shadow: -4px -2px 16px #FFFFFF, 4px 2px 16px rgba(95, 157, 231, 0.48);
+    border-radius: 9px;
+    border: none;
+
+}
+
+.btn-add-status .icon{
+    color: white;
+    font-size: 22px;
+    position: relative;
+    right: 2px;
+    top: 2px;
+}
+
+.ant-popover .ant-popover-inner-content{
+    padding: 6px 8px;
+}
+
+.ant-popover .twitter-picker {
+    border: none !important;
+    box-shadow: unset !important;
+}
+
+
+.ant-form-item-label  [for="usuarios_ids"]{
+    display: block !important;
+    position: relative;
+    bottom: -6px;
+}
+
+.ant-form-item-label  [for="usuarios_ids"] .ant-form-item{
+    margin-bottom: -10px !important;
+}

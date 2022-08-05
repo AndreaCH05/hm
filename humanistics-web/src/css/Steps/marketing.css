@@ -1,0 +1,36 @@
+.connect-facebook-page {
+    min-width: 130px;
+    height: 100%;
+    position: relative;
+    top: 1px
+}
+
+.connect-facebook-page .connect-facebook-page-text{
+    position: relative;
+    top: -8px;
+}
+
+.connect-facebook-page .connect-facebook-page-icon{
+    position: relative;
+    left: -5px;
+}
+
+.connect-facebook-page .connect-facebook-page-icon.selected{
+    position: absolute;
+    left: unset;
+    top: -4px;
+    right: -10px;
+}
+
+
+.connect-facebook-page .connect-facebook-page-avatar.selected{
+    position: relative;
+    left: -18px;
+}
+
+
+.connect-facebook-page .connect-facebook-page-text.selected{
+    position: relative;
+    left: -10px;
+    top: 1px
+}

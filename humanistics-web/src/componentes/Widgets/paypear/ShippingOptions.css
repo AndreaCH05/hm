@@ -1,0 +1,25 @@
+.shipping .ant-radio-group.ant-radio-group-outline.ant-radio-group-large{
+    width: 100%;
+}
+
+.form-item-shipping{
+    padding: 10px 2em 0 2em!important;
+}
+
+.shipping-information {
+    width: 100%;
+    min-height: 50px!important;
+    margin: 10px 0 10px 0;
+    padding: 10px 2em 0 2em!important;
+    border-radius: .4rem!important;
+    color: #13A7FF;
+    box-shadow: 0.4em 0.4em 1rem #E5EDF5 !important;
+
+}
+
+
+.shipping-information .cost {
+    float: right;
+    color: #7E97B8!important;
+   
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC>
+
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title>Invitación</title>
+    <style>
+        body {
+            margin: 0px !important;
+        }
+
+        .contenedor-actualizacion {
+
+            background: linear-gradient(170.38deg, #0066FF 34.73%, #2400FF 134.43%);
+        }
+
+
+        .img-logo-center {
+            font-size: 0pt;
+            line-height: 0pt;
+            text-align: center;
+            padding: 30px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        .contenedor-mail {
+            background-color: #FFF;
+            text-align: center;
+            width: 80%;
+            margin: auto;
+            border-radius: 20px;
+            padding: 10px;
+        }
+
+
+        .tituloMail {
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 36px;
+            letter-spacing: 5px;
+            color: #000000;
+        }
+
+        .textoMail {
+            margin: 10px 0px;
+            padding: 12px;
+            text-align: center;
+            vertical-align: middle;
+            letter-spacing: 3pt;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 32px;
+
+            color: #000000;
+        }
+
+        .lblUser {
+            font-weight: 700;
+        }
+
+        .spnEstatus {
+            /*background: #00ff47;*/
+            color: #FFF;
+            border-radius: 5px;
+            padding: 3px;
+        }
+
+        .btnMail {
+            color: #FFF;
+            padding: 10px 15px;
+            border-radius: 10px;
+            letter-spacing: 2px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 9pt;
+            border: none;
+        }
+
+        .btn-nuevoProspecto {
+            background: linear-gradient(195.09deg, #CD3EEC 2.26%, #677EF3 97.1%);
+        }
+
+        .btn-cambioEstatus {
+ 
+    background: linear-gradient(275.15deg, #0066FF 16.5%, #2400FF 86.77%);
+
+        }
+
+        .contenedor-leyenda {
+            padding: 30px;
+            text-align: center;
+        }
+
+        .lblcopyright {
+            color: #FFF;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 7pt;
+            line-height: 8px;
+            letter-spacing: 2px;
+
+        }
+    </style>
+
+</head>
+
+<body class="body contenedor">
+    <div class="contenedor-actualizacion">
+        <div class="img-logo-center">
+            <img src="{{ asset }}/images/Logo-R.png" width="300" alt="" />
+        </div>
+
+        <div class="contenedor-mail">
+            <h1 class="tituloMail">{{LOGO}} </h1>
+            <!-- <img class="logoMail" src="../../../../public/images/Logo-R.png" width="250"  alt="" /> -->
+            <h1 class="tituloMail"> Invitación </h1>
+
+            <img src="{{ asset }}/images/imagen-mails.png" width="300" alt="" />
+
+            <div class="textoMail">
+                <label class="lblUser">@{{ nombre }}</label>,
+                haz sido invitado a participar en el proyecto {{proyecto}} por {{ user }}.
+            </div>
+
+            <button class="btnMail btn-cambioEstatus">Aceptar</button>
+        </div>
+
+        <div class="contenedor-leyenda">
+            <label class="lblcopyright">2020 Humanistics. Todos los Derechos Reservados.</label>
+        </div>
+
+    </div>
+</body>
+
+</html>

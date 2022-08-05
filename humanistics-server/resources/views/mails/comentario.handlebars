@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC>
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+    <title>Nuevo prospecto</title>
+    <style>
+        body {
+            margin: 0px !important;
+        }
+
+        .contenedor-nuevoProspecto, .contenedor-cambioEstatus {
+            padding: 10px;
+            height: 100vh;
+        }
+
+        .contenedor-nuevoProspecto {
+            background: linear-gradient(195.09deg, #CD3EEC 2.26%, #677EF3 97.1%);
+        }
+
+        .contenedor-cambioEstatus {
+            background: linear-gradient(225deg, #FF7D4B 0%, #FFBB4B 100%);
+        }
+
+
+        .img-logo-center {
+            font-size: 0pt;
+            line-height: 0pt;
+            text-align: center;
+            padding: 30px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        .contenedor-mail {
+            background-color: #FFF;
+            text-align: center;
+            width: 80%;
+            margin: auto;
+            border-radius: 20px;
+            padding: 10px;
+        }
+
+
+        .tituloMail {
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 36px;
+            letter-spacing: 5px;
+            color: #000000;
+        }
+
+        .textoMail {
+            margin: 10px 0px;
+            padding: 12px;
+            text-align: center;
+            vertical-align: middle;
+            letter-spacing: 3pt;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 32px;
+
+            color: #000000;
+        }
+
+        .lblUser {
+            font-weight: 700;
+        }
+
+        .spnEstatus {
+            /*background: #00ff47;*/
+            color: #FFF;
+            border-radius: 5px;
+            padding: 3px;
+        }
+
+        .btnMail {
+            color: #FFF;
+            padding: 10px 15px;
+            border-radius: 10px;
+            letter-spacing: 2px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 9pt;
+            border: none;
+        }
+
+        .btn-nuevoProspecto {
+            background: linear-gradient(195.09deg, #CD3EEC 2.26%, #677EF3 97.1%);
+        }
+
+        .btn-cambioEstatus {
+            background: linear-gradient(231.65deg, #FFBB4B 33.63%, #F98257 116.71%);
+
+        }
+
+        .contenedor-leyenda {
+            padding: 30px;
+            text-align: center;
+        }
+
+        .lblcopyright {
+            color: #FFF;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 7pt;
+            line-height: 8px;
+            letter-spacing: 2px;
+
+        }
+
+
+    </style>
+
+</head>
+
+<body class="body contenedor">
+<div class="contenedor-cambioEstatus">
+    <div class="img-logo-center">
+        <img src="{{ asset }}/images/Logo-R.png" width="300" alt=""/>
+    </div>
+
+    <div class="contenedor-mail">
+        <h1 class="tituloMail">{{LOGO}} </h1>
+        <!-- <img class="logoMail" src="../../../../public/images/Logo-R.png" width="250"  alt="" /> -->
+        <h1 class="tituloMail">Actualización</h1>
+
+        <img src="{{ asset }}/images/imagen-mails.png" width="300" alt=""/>
+
+        <div class="textoMail">
+            <label class="lblUser">@{{ usuario }}</label>, {{ realizado_por }} ha escrito una nueva actualizacion en el prospecto:  {{ prospecto }}.
+        </div>
+
+        <button class="btnMail btn-cambioEstatus">Ver Prospecto</button>
+    </div>
+
+    <div class="contenedor-leyenda">
+        <label class="lblcopyright">2021 Humanistics. Todos los Derechos Reservados.</label>
+    </div>
+
+</div>
+</body>
+</html>

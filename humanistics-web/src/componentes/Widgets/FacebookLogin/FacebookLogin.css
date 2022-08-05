@@ -1,0 +1,99 @@
+
+.facebook-button .block-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
+}
+.facebook-button .block-wrap > div {
+  width: 100%;
+  text-align: center;
+}
+
+.facebook-button .btn-google,
+.facebook-button  .btn-fb {
+  display: inline-block;
+  border-radius: 1px;
+  text-decoration: none;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+  transition: background-color 0.218s, border-color 0.218s, box-shadow 0.218s;
+}
+
+.facebook-button .btn-google .google-content,
+.facebook-button .btn-google .fb-content,
+.facebook-button .btn-fb .google-content,
+.facebook-button .btn-fb .fb-content {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  height: 50px;
+}
+
+.facebook-button .btn-google .google-content .logo,
+.facebook-button .btn-google .fb-content .logo,
+.facebook-button .btn-fb .google-content .logo,
+.facebook-button .btn-fb .fb-content .logo {
+  padding: 15px;
+  height: inherit;
+}
+.facebook-button .btn-google .google-content svg,
+.facebook-button .btn-google .fb-content svg,
+.facebook-button .btn-fb .google-content svg,
+.facebook-button .btn-fb .fb-content svg {
+  width: 40px;
+  height: 40px;
+
+}
+.facebook-button .btn-fb .fb-content svg{
+  position: relative;
+  bottom: 10px;
+}
+
+.facebook-button .btn-google .google-content p,
+.facebook-button .btn-google .fb-content p,
+.facebook-button .btn-fb .google-content p,
+.facebook-button .btn-fb .fb-content p {
+  width: 100%;
+  line-height: 1;
+  letter-spacing: 0.21px;
+  text-align: center;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+
+.facebook-button .btn-google {
+  background: #FFF;
+}
+
+.facebook-button .btn-google:hover {
+  box-shadow: 0 0 3px 3px rgba(66, 133, 244, 0.3);
+}
+
+.facebook-button .btn-google:active {
+  background-color: #eee;
+}
+
+.facebook-button .btn-google .google-content p {
+  color: #757575;
+}
+
+.facebook-button .btn-fb {
+  padding-top: 1.5px;
+
+  background-color: #5890FF;
+  width: 100%;
+  border-radius: 9px;
+  border: 2px solid #5890FF; 
+}
+.facebook-button .btn-fb:hover {
+  box-shadow: 0 0 3px 3px rgba(59, 89, 152, 0.3);
+}
+.facebook-button .btn-fb .fb-content p {
+  color: rgba(255, 255, 255, 0.87);
+}
+
+
+.fb-text{
+  font-family: 'Quicksand', sans-serif  !important;
+}

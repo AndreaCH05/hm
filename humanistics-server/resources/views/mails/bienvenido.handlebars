@@ -1,0 +1,163 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml"
+    xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title>Bienvenido </title>
+    <style type="text/css" media="screen">
+        body {
+            margin: 0px !important;
+        }
+
+        .contenedor-usuario,
+        .contenedor-cambioEstatus {
+            padding: 10px;
+            height: 100vh;
+        }
+
+        .contenedor-usuario {
+            background: linear-gradient(167.63deg, #00a2ff 34.73%, #0059ff 134.43%);
+        }
+
+        .contenedor-cambioEstatus {
+            background: linear-gradient(194.57deg, #FE336D 31.05%, #F98257 128.77%);
+        }
+
+
+        .img-logo-center {
+            font-size: 0pt;
+            line-height: 0pt;
+            text-align: center;
+            padding: 30px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        .contenedor-mail {
+            background-color: #FFF;
+            text-align: center;
+            width: 80%;
+            margin: auto;
+            border-radius: 20px;
+            padding: 10px;
+        }
+
+
+        .tituloMail {
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 36px;
+            letter-spacing: 5px;
+            color: #000000;
+        }
+
+        .textoMail {
+            margin: 10px 0px;
+            padding: 12px;
+            text-align: center;
+            vertical-align: middle;
+            letter-spacing: 3pt;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 32px;
+
+            color: #000000;
+        }
+
+        .lblUser {
+            font-weight: 700;
+        }
+
+        .spnEstatus {
+
+            color: #FFF;
+            border-radius: 5px;
+            padding: 3px;
+        }
+
+        .btnMail {
+            color: #FFF;
+            padding: 15px 15px;
+            border-radius: 10px;
+            letter-spacing: 2px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 9pt;
+            border: none;
+        }
+
+        .btn-usuario {
+            background: linear-gradient(167.63deg, #00a2ff 34.73%, #0059ff 134.43%);
+            text-decoration: none !important;
+            color: #FFF !important;
+            font-weight: 500;
+        }
+
+        .contenedor-leyenda {
+            padding: 30px;
+            text-align: center;
+        }
+
+        .lblcopyright {
+            color: #FFF;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 7pt;
+            line-height: 8px;
+            letter-spacing: 2px;
+        }
+
+        .divBtnMail {
+            margin: 10px auto !important;
+        }
+    </style>
+
+</head>
+
+<body class="body contenedor">
+    <div class="contenedor-usuario">
+        <div class="img-logo-center">
+            <img src="{{ asset }}/images/Logo-R.png" width="300" alt="" />
+        </div>
+
+        <div class="contenedor-mail">
+            <h1 class="tituloMail">Bienvenido</h1>
+
+            <img src="{{ asset }}/images/imagen-mails.png" width="300" alt="" />
+
+            <div class="textoMail">
+                <label class="lblUser">@{{ user.nombre }} </label>,
+                Hola! Gracias por registrarte en Humanistics.
+                <br />
+                Comienza a administrar tus prospecto de venta <br />
+                ¡Ahora mismo! <br />
+                Comienza por agregar tus prospectos de venta <br />
+                o realiza una invitación a tus colaboradores <br />
+                para que también ingresen al sistema.
+            </div>
+
+            <div class="divBtnMail">
+
+                <a href={{ login }} target="_blank" class="btnMail btn-usuario">
+                    Aceptar
+                </a>
+            </div>
+
+        </div>
+
+        <div class="contenedor-leyenda">
+            <label class="lblcopyright">2020 Humanistics. Todos los Derechos Reservados.</label>
+        </div>
+
+    </div>
+</body>
+
+</html>

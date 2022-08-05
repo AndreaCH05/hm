@@ -1,0 +1,1839 @@
+{
+	"info": {
+		"_postman_id": "3fb192f3-b252-4865-988d-3264e1fc36b4",
+		"name": "Humanistics",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Industrias",
+			"item": [
+				{
+					"name": "Agregar industria",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"nombre\":\"Sistemas 4\",\n\t\"descripcion\":\"Todo lo que dicen que se debe de hacer\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:4001/industrias/add",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4001",
+							"path": [
+								"industrias",
+								"add"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Actualizar Industria",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"nombre\":\"Leme en\",\n\t\"descripcion\":\"Totorotorotoro\",\n\t\"id\":\"5ea858e9dc31dd2360466984\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:4001/industrias/update",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4001",
+							"path": [
+								"industrias",
+								"update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar Industria",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"id\":\"5ea858e9dc31dd2360466984\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:4001/industrias/delete",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4001",
+							"path": [
+								"industrias",
+								"delete"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener Industria",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"id\":\"5ea84b8dbbbba8214b799c5c\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:4001/industrias/id",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4001",
+							"path": [
+								"industrias",
+								"id"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener todas las industrias.",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"id\":\"5ea858e9dc31dd2360466984\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:4001/industrias",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4001",
+							"path": [
+								"industrias"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Plantillas de Estatus",
+			"item": [
+				{
+					"name": "Agregar plantilla de status",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"nombre\":\"Sistemas 4\",\n\t\"estatus\":[\n\t\t{\n\t\t\t\"nombre\":\"Contacto\",\n\t\t\t\"descripcion\":\"Se inicia el primer contacto con el cliente.\",\n\t\t\t\"color\":\"0386FF\",\n\t\t\t\"ponderacion\":\"10\"\n\t\t},\n\t\t{\n\t\t\t\"nombre\":\"Oracion\",\n\t\t\t\"descripcion\":\"Alberto Virrey\",\n\t\t\t\"color\":\"00FF0A\",\n\t\t\t\"ponderacion\":\"20\"\n\t\t},\n\t\t{\n\t\t\t\"nombre\":\"Venta\",\n\t\t\t\"descripcion\":\"Alberto Virrey\",\n\t\t\t\"color\":\"CC00FF\",\n\t\t\t\"ponderacion\":\"60\"\n\t\t}\n\t]\n\n}"
+						},
+						"url": {
+							"raw": "http://localhost:4001/plantillas/add",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4001",
+							"path": [
+								"plantillas",
+								"add"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Actualizar plantilla de status",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"nombre\":\"LOLOLO\",\n\t\"estatus\":\n\t[\n\t\t{\n\t\t\t\"nombre\":\"LOLOLOLLO\",\n\t\t\t\"descripcion\":\"Se inicia el primer contacto con el cliente.\",\n\t\t\t\"color\":\"0386FF\",\n\t\t\t\"ponderacion\":\"10\"\n\t\t},\n\t\t{\n\t\t\t\"nombre\":\" LOLOLOLLO 2\",\n\t\t\t\"descripcion\":\"Alberto Virrey\",\n\t\t\t\"color\":\"00FF0A\",\n\t\t\t\"ponderacion\":\"20\"\n\t\t},\n\t\t{\n\t\t\t\"nombre\":\"Venta LOLOLOLLO\",\n\t\t\t\"descripcion\":\"Alberto Virrey\",\n\t\t\t\"color\":\"CC00FF\",\n\t\t\t\"ponderacion\":\"60\"\n\t\t}\n\t],\n\t\"id\":\"5eb06f88be00e81d20ab0f73\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:4001/plantillas/update",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4001",
+							"path": [
+								"plantillas",
+								"update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar Plantilla de Status",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"id\":\"5eb06f88be00e81d20ab0f73\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:4001/plantillas/delete",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4001",
+							"path": [
+								"plantillas",
+								"delete"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener la plantilla de status",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"id\":\"5eb080bf826e21234da1052f\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:4001/plantillas/id",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4001",
+							"path": [
+								"plantillas",
+								"id"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener todaas las plantillas (paginado)",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"id\":\"5ea858e9dc31dd2360466984\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:4001/plantillas",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4001",
+							"path": [
+								"plantillas"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Planes",
+			"item": [
+				{
+					"name": "Agregar Plan",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"nombre\":\"Sistemas 4\",\n\t\"descripcion\":\"Todo lo que dicen que se debe de hacer\",\n\t\"costo\":240.50,\n\t\"prospectos\":30,\n\t\"usuarios\":20\n}"
+						},
+						"url": {
+							"raw": "http://localhost:4001/planes/add",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4001",
+							"path": [
+								"planes",
+								"add"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Actualizar Plan",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id\": \"5ea9bcf6a5a7b550a9b2164a\",\n\t\"nombre\":\"ELEMENTAL\",\n\t\"costo\":430,\n\t\"prospectos\":10,\n\t\"usuarios\":10\n}"
+						},
+						"url": {
+							"raw": "http://localhost:4001/planes/update",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4001",
+							"path": [
+								"planes",
+								"update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar Plan",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id\": \"5ea9bcf6a5a7b550a9b2164a\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:4001/planes/delete",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4001",
+							"path": [
+								"planes",
+								"delete"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener el plan",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"id\":\"5ea9bff858a7fd513e34878e\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:4001/planes/id",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4001",
+							"path": [
+								"planes",
+								"id"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener todos los planes (paginado)",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"id\":\"5ea858e9dc31dd2360466984\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:4001/planes",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4001",
+							"path": [
+								"planes"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Files",
+			"item": [
+				{
+					"name": "Upload",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/Users/juanvirrey/Downloads/node-html-pdf.html"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:4001/upload/add",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4001",
+							"path": [
+								"upload",
+								"add"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete file",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"filename\":\"l80ycv1epvs.html\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:4001/upload/delete",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4001",
+							"path": [
+								"upload",
+								"delete"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get File",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZTgyNDVkYjhjYmY0MjFkZTdmYjc1YjYiLCJpYXQiOjE1ODU2MDA2ODMsImV4cCI6MTU4NTY4NzA4M30.h_X0O15jbDRhYzqqpQKlvWgnOxgOy9NUCZ2PJN9ZsNE",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:4001/upload/l80ycv1epvs.html",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4001",
+							"path": [
+								"upload",
+								"l80ycv1epvs.html"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "15a381b3-3c5d-4e0c-bf5b-2083feec354a",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "70844028-d13a-489b-a37f-e7f2e18157e7",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Registro (Step by Step)",
+			"item": [
+				{
+					"name": "1 Registro de Usuario",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"email\":\"av@iseeyoutech.com2\",\n\t\"nombre\":\"Alberto Virrey\",\n\t\"telefono\":\"6642931332\",\n\t\"password\":\"123456789\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:4001/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4001",
+							"path": [
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "2 Actualizar Avatar",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"avatar\":\"image.png\",\n\t\"color\":\"FFF\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:4001/register/avatar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4001",
+							"path": [
+								"register",
+								"avatar"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "3 Agregar Proyecto",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"nombre\":\"Proyecto Esmeralda\",\n\t\"producto_servicio\":\"Inmobiliaria\",\n\t\"logo\":\"image.png\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:4001/register/project",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4001",
+							"path": [
+								"register",
+								"project"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "4 Configurar Proyecto",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"industria_id\":\"5ea88caf275937381e25f078\",\n\t\"descripcion_general\":\"Alberto Virrey\",\n\t\"prospectos_deseados\":1000,\n\t\"pagina_web\":\"luz.goog.com\",\n\t\"facebook\":\"luz.facebook.com\",\n\t\"instagram\":\"luz.instragram.com\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:4001/register/config",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4001",
+							"path": [
+								"register",
+								"config"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "5 Agregar estatus al proyecto",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"plantilla\":true,\n\t\"estatus\": [\n\t\t{\n\t\t\t\"nombre\":\"Contacto\",\n\t\t\t\"descripcion\":\"Se inicia el primer contacto con el cliente.\",\n\t\t\t\"color\":\"0386FF\",\n\t\t\t\"ponderacion\":\"10\"\n\t\t},\n\t\t{\n\t\t\t\"nombre\":\"Oracion\",\n\t\t\t\"descripcion\":\"Alberto Virrey\",\n\t\t\t\"color\":\"00FF0A\",\n\t\t\t\"ponderacion\":\"20\"\n\t\t},\n\t\t{\n\t\t\t\"nombre\":\"Venta\",\n\t\t\t\"descripcion\":\"Alberto Virrey\",\n\t\t\t\"color\":\"CC00FF\",\n\t\t\t\"ponderacion\":\"60\"\n\t\t}\n\t]\n\n}"
+						},
+						"url": {
+							"raw": "http://localhost:4001/register/status",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4001",
+							"path": [
+								"register",
+								"status"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "6 Seleccion de Paquete.",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"email\":\"av@iseeyoutech.com2\",\n\t\"nombre\":\"Alberto Virrey\",\n\t\"telefono\":\"6642931332\",\n\t\"password\":\"123456789\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:4001/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4001",
+							"path": [
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "6.1 Modulo de Pago",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"email\":\"av@iseeyoutech.com2\",\n\t\"nombre\":\"Alberto Virrey\",\n\t\"telefono\":\"6642931332\",\n\t\"password\":\"123456789\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:4001/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4001",
+							"path": [
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "7 Usuarios",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"email\":\"av@iseeyoutech.com2\",\n\t\"nombre\":\"Alberto Virrey\",\n\t\"telefono\":\"6642931332\",\n\t\"password\":\"123456789\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:4001/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4001",
+							"path": [
+								"register"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "3e733625-1e72-4dd5-a954-08a42bcea926",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "fae3c5de-f189-4f3a-9627-c0a395bf3f77",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Usuarios",
+			"item": [
+				{
+					"name": "Edit Usuarios",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": \"5e744f036c933023b8bf6b95\",\r\n    \"nombre\": \"Luis Jesus Rodriguez Peresz\",\r\n    \"telefono\": \"6647842828\",\r\n    \"email\": \"juan@juan.juadn\",\r\n    \"departamento_id\": \"5e6b3d56d346762de478e38c\",\r\n    \"password\":\"12\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:4000/usuarios/update",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"usuarios",
+								"update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get By Id",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"id\": \"5e6edf44aa271425726bcd7d\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:4000/usuarios/id",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"usuarios",
+								"id"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"id\": \"5e6d8499c8a58527c05c70b8\",\r\n    \"nombre\": \"Jose Pandron\",\r\n    \"telefono\": \"66478342828\",\r\n    \"email\": \"juasn.javc06@gmail.com\",\r\n    \"departamento_id\": \"5e6b3d56d346762de478e38c\",\r\n    \"password\":\"123456789\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:4000/usuarios/update",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"usuarios",
+								"update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Roles",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"id\": \"5e6d8499c8a58527c05c70b8\",\r\n    \"nombre\": \"Jose Pandron\",\r\n    \"telefono\": \"66478342828\",\r\n    \"email\": \"juasn.javc06@gmail.com\",\r\n    \"departamento_id\": \"5e6b3d56d346762de478e38c\",\r\n    \"password\":\"123456789\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:4000/usuarios/update",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"usuarios",
+								"update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Agregar Usuario",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"nombre\": \"Luis Jesus\",\n    \"telefono\": \"6657440909\",\n    \"password\" :\"juanmiguel1\",\n    \"email\": \"juan.miguel@juanmiguel1.com\"\n}\n\n"
+						},
+						"url": {
+							"raw": "http://localhost:4001/usuarios/vendedor",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4001",
+							"path": [
+								"usuarios",
+								"vendedor"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Agregar Usuario Copy",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"nombre\": \"Luis Jesus\",\n    \"telefono\": \"6657440909\",\n    \"password\" :\"juanmiguel1\",\n    \"email\": \"juan.miguel@juanmiguel1.com\"\n}\n\n"
+						},
+						"url": {
+							"raw": "http://localhost:4001/usuarios/vendedor",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4001",
+							"path": [
+								"usuarios",
+								"vendedor"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar Usuario",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id\": \"5ebbf23b24463e05d7b9c897\"\n}\n\n"
+						},
+						"url": {
+							"raw": "http://localhost:4001/usuarios/delete",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4001",
+							"path": [
+								"usuarios",
+								"delete"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Proyectos",
+			"item": [
+				{
+					"name": "Agregar Proyecto",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"nombre\":\"Sistemas 4\",\n\t\"logo\":\"Todo lo que dicen que se debe de hacer\",\n\t\"producto_servicio\": \"PRODUCTO SERVICIO\",\n\t\"industria_id\": \"5eaf8ac88f1b970347707354\",\n\t\"descripcion_general\":\"Descripcion general \",\n\t\"prospectos_deseados\": 50000,\n\t\"pagina_web\": \"www.im.com\",\n\t\"facebook\": \"www.facebook.com/elemento\",\n\t\"instagram\": \"www.instagram.com/elemento\",\n\t\"estatus\":[\n\t\t{\n\t\t\t\"nombre\":\"Contacto\",\n\t\t\t\"descripcion\":\"Se inicia el primer contacto con el cliente.\",\n\t\t\t\"color\":\"0386FF\",\n\t\t\t\"ponderacion\":\"10\"\n\t\t},\n\t\t{\n\t\t\t\"nombre\":\"Oracion\",\n\t\t\t\"descripcion\":\"Alberto Virrey\",\n\t\t\t\"color\":\"00FF0A\",\n\t\t\t\"ponderacion\":\"20\"\n\t\t},\n\t\t{\n\t\t\t\"nombre\":\"Venta\",\n\t\t\t\"descripcion\":\"Alberto Virrey\",\n\t\t\t\"color\":\"CC00FF\",\n\t\t\t\"ponderacion\":\"60\"\n\t\t}\n\t]\n}"
+						},
+						"url": {
+							"raw": "http://localhost:4001/projects/add",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4001",
+							"path": [
+								"projects",
+								"add"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Actualizar Proyecto",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"id\": \"5eb1944a1c97ab2f31467371\",\n\t\"nombre\":\"LAMON\",\n\t\"logo\":\"LAM2ON\",\n\t\"producto_servicio\": \"PROOOOOOOO\",\n\t\"industria_id\": \"5eaf8ac88f1b970347707354\",\n\t\"descripcion_general\":\"GENERAL \",\n\t\"prospectos_deseados\": 50,\n\t\"pagina_web\": \"www.im2.com\",\n\t\"facebook\": \"www.facebook2.com/elemento\",\n\t\"instagram\": \"www.instagram2.com/elemento\",\n\t\"estatus\":[\n\t\t{\n\t\t\t\"nombre\":\"Contacto2\",\n\t\t\t\"descripcion\":\"Se inicia el primer contacto con el cliente.\",\n\t\t\t\"color\":\"0386FF\",\n\t\t\t\"ponderacion\":\"10\"\n\t\t},\n\t\t{\n\t\t\t\"nombre\":\"Oracion2\",\n\t\t\t\"descripcion\":\"Alberto Virrey\",\n\t\t\t\"color\":\"00FF0A\",\n\t\t\t\"ponderacion\":\"20\"\n\t\t},\n\t\t{\n\t\t\t\"nombre\":\"Venta2\",\n\t\t\t\"descripcion\":\"Alberto Virrey\",\n\t\t\t\"color\":\"CC00FF\",\n\t\t\t\"ponderacion\":\"60\"\n\t\t}\n\t]\n}"
+						},
+						"url": {
+							"raw": "http://localhost:4001/projects/update",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4001",
+							"path": [
+								"projects",
+								"update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar Proyecto",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"id\": \"5eb196a94b32792f6b30870d\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:4001/projects/delete",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4001",
+							"path": [
+								"projects",
+								"delete"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get all projects",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"id\": \"5ebbfde47c7c5338cf28f769\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:4001/projects",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4001",
+							"path": [
+								"projects"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ger users projects",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"id\": \"5ebbf23b24463e05d7b9c89a\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:4001/projects/id/users",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4001",
+							"path": [
+								"projects",
+								"id",
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get project by id",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"id\": \"5e6d8499c8a58527c05c70b8\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:4001/projects/id",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4001",
+							"path": [
+								"projects",
+								"id"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Proyectos Copy",
+			"item": [
+				{
+					"name": "Agregar Proyecto",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"nombre\":\"Sistemas 4\",\n\t\"logo\":\"Todo lo que dicen que se debe de hacer\",\n\t\"producto_servicio\": \"PRODUCTO SERVICIO\",\n\t\"industria_id\": \"5eaf8ac88f1b970347707354\",\n\t\"descripcion_general\":\"Descripcion general \",\n\t\"prospectos_deseados\": 50000,\n\t\"pagina_web\": \"www.im.com\",\n\t\"facebook\": \"www.facebook.com/elemento\",\n\t\"instagram\": \"www.instagram.com/elemento\",\n\t\"estatus\":[\n\t\t{\n\t\t\t\"nombre\":\"Contacto\",\n\t\t\t\"descripcion\":\"Se inicia el primer contacto con el cliente.\",\n\t\t\t\"color\":\"0386FF\",\n\t\t\t\"ponderacion\":\"10\"\n\t\t},\n\t\t{\n\t\t\t\"nombre\":\"Oracion\",\n\t\t\t\"descripcion\":\"Alberto Virrey\",\n\t\t\t\"color\":\"00FF0A\",\n\t\t\t\"ponderacion\":\"20\"\n\t\t},\n\t\t{\n\t\t\t\"nombre\":\"Venta\",\n\t\t\t\"descripcion\":\"Alberto Virrey\",\n\t\t\t\"color\":\"CC00FF\",\n\t\t\t\"ponderacion\":\"60\"\n\t\t}\n\t]\n}"
+						},
+						"url": {
+							"raw": "http://localhost:4001/projects/add",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4001",
+							"path": [
+								"projects",
+								"add"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Actualizar Proyecto",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"id\": \"5eb1944a1c97ab2f31467371\",\n\t\"nombre\":\"LAMON\",\n\t\"logo\":\"LAM2ON\",\n\t\"producto_servicio\": \"PROOOOOOOO\",\n\t\"industria_id\": \"5eaf8ac88f1b970347707354\",\n\t\"descripcion_general\":\"GENERAL \",\n\t\"prospectos_deseados\": 50,\n\t\"pagina_web\": \"www.im2.com\",\n\t\"facebook\": \"www.facebook2.com/elemento\",\n\t\"instagram\": \"www.instagram2.com/elemento\",\n\t\"estatus\":[\n\t\t{\n\t\t\t\"nombre\":\"Contacto2\",\n\t\t\t\"descripcion\":\"Se inicia el primer contacto con el cliente.\",\n\t\t\t\"color\":\"0386FF\",\n\t\t\t\"ponderacion\":\"10\"\n\t\t},\n\t\t{\n\t\t\t\"nombre\":\"Oracion2\",\n\t\t\t\"descripcion\":\"Alberto Virrey\",\n\t\t\t\"color\":\"00FF0A\",\n\t\t\t\"ponderacion\":\"20\"\n\t\t},\n\t\t{\n\t\t\t\"nombre\":\"Venta2\",\n\t\t\t\"descripcion\":\"Alberto Virrey\",\n\t\t\t\"color\":\"CC00FF\",\n\t\t\t\"ponderacion\":\"60\"\n\t\t}\n\t]\n}"
+						},
+						"url": {
+							"raw": "http://localhost:4001/projects/update",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4001",
+							"path": [
+								"projects",
+								"update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar Proyecto",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"id\": \"5eb196a94b32792f6b30870d\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:4001/projects/delete",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4001",
+							"path": [
+								"projects",
+								"delete"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get all projects",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"id\": \"5e6d8499c8a58527c05c70b8\",\r\n    \"nombre\": \"Jose Pandron\",\r\n    \"telefono\": \"66478342828\",\r\n    \"email\": \"juasn.javc06@gmail.com\",\r\n    \"departamento_id\": \"5e6b3d56d346762de478e38c\",\r\n    \"password\":\"123456789\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:4000/usuarios/update",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"usuarios",
+								"update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener usuarios por proyecto",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"id\": \"5e6d8499c8a58527c05c70b8\",\r\n    \"nombre\": \"Jose Pandron\",\r\n    \"telefono\": \"66478342828\",\r\n    \"email\": \"juasn.javc06@gmail.com\",\r\n    \"departamento_id\": \"5e6b3d56d346762de478e38c\",\r\n    \"password\":\"123456789\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:4000/usuarios/update",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"usuarios",
+								"update"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Prospectos",
+			"item": [
+				{
+					"name": "Agregar prospecto",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"nombre\":\"Sistemas 4\",\n\t\"telefono\":\"6648752434\",\n\t\"fuente\": \"facebook\",\n\t\"email\": \"alberto@sisstemastec.ni\",\n\t\"asignado_a\": \"5eb03f4011d50217d2c7d8cb\",\n\t\"adjuntos\": [\"FILE FILE\"],\n\t\"estatus\": \"5eb19ad87faa0c302309e636\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:4001/prospectos/add",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4001",
+							"path": [
+								"prospectos",
+								"add"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Editar prospecto",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"id\": \"5eb1c19fd7956234820ea44e\",\n\t\"nombre\":\"Sistemas 4\",\n\t\"telefono\":\"6648752434\",\n\t\"fuente\": \"facebook\",\n\t\"email\": \"alberto@sisstemastec.ni\",\n\t\"asignado_a\": \"5eb03f4011d50217d2c7d8cb\",\n\t\"adjuntos\": [\"FILE FILE\"],\n\t\"estatus\": \"5eb19ad87faa0c302309e636\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:4001/projects/update",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4001",
+							"path": [
+								"projects",
+								"update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Editar prospecto Copy",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"id\": \"5eb1c19fd7956234820ea44e\",\n\t\"nombre\":\"Sistemas 4\",\n\t\"telefono\":\"6648752434\",\n\t\"fuente\": \"facebook\",\n\t\"email\": \"alberto@sisstemastec.ni\",\n\t\"asignado_a\": \"5eb03f4011d50217d2c7d8cb\",\n\t\"adjuntos\": [\"FILE FILE\"],\n\t\"estatus\": \"5eb19ad87faa0c302309e636\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:4001/projects/update",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4001",
+							"path": [
+								"projects",
+								"update"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Ventas/Pagos",
+			"item": [
+				{
+					"name": "Checkout",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"nombre\":\"Sistemas 4\",\n\t\"telefono\":\"6648752434\",\n\t\"fuente\": \"facebook\",\n\t\"email\": \"alberto@sisstemastec.ni\",\n\t\"asignado_a\": \"5eb03f4011d50217d2c7d8cb\",\n\t\"adjuntos\": [\"FILE FILE\"],\n\t\"estatus\": \"5eb19ad87faa0c302309e636\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:4001/prospectos/add",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4001",
+							"path": [
+								"prospectos",
+								"add"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Checkout Copy",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"nombre\":\"Sistemas 4\",\n\t\"telefono\":\"6648752434\",\n\t\"fuente\": \"facebook\",\n\t\"email\": \"alberto@sisstemastec.ni\",\n\t\"asignado_a\": \"5eb03f4011d50217d2c7d8cb\",\n\t\"adjuntos\": [\"FILE FILE\"],\n\t\"estatus\": \"5eb19ad87faa0c302309e636\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:4001/prospectos/add",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4001",
+							"path": [
+								"prospectos",
+								"add"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Pagos",
+			"item": [
+				{
+					"name": "Pagos",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:4001/checkout/list",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4001",
+							"path": [
+								"checkout",
+								"list"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"email\":\"av@iseeyoutech.com2\",\n\t\"nombre\":\"Alberto Virrey\",\n\t\"telefono\":\"6642931332\",\n\t\"password\":\"123456789\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4001/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login Admin",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"email\":\"av@humanistics.com\",\n\t\"password\":\"12345678\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4001/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login Empresa",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"email\":\"fa@iseeyoutech.com\",\n\t\"password\":\"12345678\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4001/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login Gerente",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"email\":\"ar@iseeyoutech.com\",\n\t\"password\":\"12345678\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4001/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login Vendedor",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"email\":\"av@iseeyoutech.com\",\n\t\"password\":\"12345678\"\n\t\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4001/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "isLogged",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4001/user/logged",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"user",
+						"logged"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZWJiZjIzYjI0NDYzZTA1ZDdiOWM4OTgiLCJpYXQiOjE1ODk0Njg0NDAsImV4cCI6MTU4OTU1NDg0MH0.vH2R6Ai9Lckgk4_mB4v42a2C4dWXhM1qVLMXOuzE2LI",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "fc919f85-a64c-4a6c-8995-a0952885e992",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "959f48da-cc5d-47e8-9c8b-7354d965409d",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"protocolProfileBehavior": {}
+}

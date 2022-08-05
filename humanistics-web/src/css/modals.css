@@ -1,0 +1,240 @@
+/*Css para los modales en General*/
+
+
+/*Boton Guardar en modales*/
+.btn-modal-morado,
+.btn-modal-morado:hover{
+    background: #492AF9;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    box-shadow: -4px -2px 16px #FFFFFF, 4px 2px 16px rgba(95, 157, 231, 0.48);
+    border-radius: 9px;
+    color: white;
+    padding: 0;
+    height: 35px;
+    min-width: 130px;
+    margin-left:1rem; 
+}
+
+.btn-modal-rojo,
+.btn-modal-rojo:hover{
+    background: #F92A47;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    box-shadow: -4px -2px 16px #FFFFFF, 4px 2px 16px rgba(95, 157, 231, 0.48);
+    border-radius: 9px;
+    color: white;
+    padding: 0;
+    height: 35px;
+    min-width: 130px;
+}
+
+.btn-anterior,
+.btn-anterior:hover{
+    background: #D0CCD0;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    box-shadow: -4px -2px 16px #FFFFFF, 4px 2px 16px rgba(95, 157, 231, 0.48);
+    border-radius: 9px;
+    color: black;
+    padding: 0;
+    height: 35px;
+    min-width: 130px;
+    margin: 0 1rem;
+}
+
+
+.modal-form{
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 0;
+}
+
+/*Boton cerrar modal*/
+.modal-form .ant-modal-close-x{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-form  .ant-modal-close{
+    right: 1rem;
+    top: 0.5rem;
+}
+
+.modal-form .ant-modal-header{
+    height: 65px;
+    display: flex;
+    align-items: center;
+}
+
+.modal-form .ant-modal-title{
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 20px;
+    color: #492AF9;
+}
+
+.modal-form .form-item{
+	margin-bottom: 1.5rem !important;
+}
+
+.modal-form .label,
+.form-list-title .ant-page-header-heading-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 29px;
+    letter-spacing: 0.225px;
+    color: #7E97B8 !important;
+}
+
+.modal-form .form-item-btn{
+    margin:0px;
+}
+
+
+.mdl-NuevoMiembro .ant-modal-content {
+    padding: 30px 10px;
+}
+
+.mdl-NuevoMiembro .ant-modal-footer {
+    padding: 10px  5px 70px 5px;
+    border-top: none !important;
+    text-align: center;
+}
+
+.mdl-NuevoMiembro .modal-title{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 50px;
+    letter-spacing: 0.5px;
+    color: #000000;
+}
+
+.mdl-NuevoMiembro .lbl-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 29px;
+    letter-spacing: 0.225px;
+    color: #000 !important;
+}
+
+/*boton morado para agregar recordatorios, modal nuevo prospecto*/
+.btn-add,
+.btn-add:focus,
+.btn-add:hover{
+    height: 35px;
+    width: 35px;
+    padding: 0;
+    border-radius: 5px;
+    border:2px solid rgba(211, 204, 255, 0.5);
+    background: #492af9;
+    color: white;
+}
+
+/*boton morado para agregar comentarios, modal prospecto*/
+.btn-update,
+.btn-update:focus,
+.btn-update:hover{
+    height: 35px;
+    width: 45px;
+    padding: 0;
+    border-radius: 5px;
+    border:2px solid rgba(211, 204, 255, 0.5);
+    background: #492af9;
+    color: white;
+}
+
+/*css para la lista de recordatorios en prospectos*/
+.form-list .form-list-item{
+    width: 100%; 
+}
+
+.form-list .ant-picker{
+    height: 35px;
+    width: 100%;
+}
+
+.form-list .ant-checkbox-checked .ant-checkbox-inner{
+    background-color: #492af9;
+    border-color: #8e7bfc;
+}
+
+.form-list .ant-checkbox-inner{
+    border-radius: 5px;
+}
+
+.form-list-title{
+    padding: 16px 10px 16px 2px;
+}
+
+.form-list-body {
+    margin-bottom: 1rem;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.form-list-body .ant-form-item{
+    margin: 0px !important;
+}
+
+/*Css para el modal de Prospectos (edicion)*/
+
+.modal-prospecto.modal-big{
+    width: 80% !important;
+    top: 50px;
+}
+
+.modal-prospecto .ant-modal-title{
+    color: #5533FF;
+    font-size: 20pt;
+    font-weight: 700;
+}
+
+.modal-prospecto .updates-box{
+    margin-top: -10px;
+    display: flex;
+    flex-flow: column;
+    height: 93%;
+}
+
+.modal-prospecto .updates-messages{
+    overflow-y: auto;
+    overflow-x: none;
+    max-height: 500px;
+    flex-grow : 1;
+}
+
+.modal-prospecto .updates-actions{
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+.modal-prospecto .updates-actions .ant-form{
+    width: 100%;
+}
+
+.modal-prospecto .updates-actions .ant-form-item{
+    margin:0;
+}
+
+/*Css para modal de estatus en Ajustes*/
+
+.modal-estatus{
+    width: 540px !important;
+    max-width: 100% !important;
+    top:50px;
+}
+
+.modal-estatus .ant-modal-body{
+    max-height: 70vh;
+    overflow-y: auto;
+}
+
+.modal-estatus .btn-add-status{
+    right: 0 !important; 
+}
+
+.modal-estatus .list-title{
+    margin: 0;
+}

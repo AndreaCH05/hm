@@ -1,0 +1,33 @@
+
+
+/*css de cards de prospectos*/
+.prospecto-card{
+	width: 80%;
+	height: 400px;
+	border-radius: 20px;
+}
+
+.prospecto-card .ant-card-body{
+	padding: 0 !important;
+}
+
+.prospecto-card-header{
+	min-height: 55px;
+	border-radius: 15px 15px 0 0;
+	color: white;
+	width: 100%;
+	padding-left: 0.5rem;
+}
+
+.prospecto-card-header *{
+	color: white;
+}
+
+.prospecto-card-list{
+	height: 320px;
+	overflow-y: auto;
+}
+
+.prospecto-card-list .ant-list-item{
+	padding-right: 15px;
+}

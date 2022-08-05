@@ -1,0 +1,31 @@
+
+.avatar.welcome {
+    padding: 6em 3em 3em 3em;
+}
+
+.avatar .circle-picker {
+    margin: 0px auto!important;
+}
+
+
+.avatar .ant-upload.ant-upload-select-picture-card{
+    margin: 1em auto;
+}
+.avatar .ant-upload.ant-upload-select{
+    border-radius: 100%;
+}
+
+.avatar .color-picker{
+    margin: 0 auto!important;
+}
+
+.avatar .btn-continue{
+    display: block;
+    margin: 3em auto 0 auto;
+}
+
+.uploader-container{
+    float: left;
+    text-align: center;
+    margin-bottom: 50px;
+}

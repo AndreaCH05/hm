@@ -1,0 +1,87 @@
+/* Contenedor principal*/
+.steps {
+    min-height: 100vh;
+    height: auto;
+}
+
+.steps {
+    font-family: 'Rubik', sans-serif;
+}
+
+/* Contendor de ambas columna*/
+.steps .steps-container {
+    /* background-color: red; */
+    min-height: 100vh;
+}
+
+/* Primera columna*/
+.steps .steps-container .steps-menu-container {
+    background-color: #F6F6F6;
+    min-height: 100%;
+}
+
+/* Segunda columna*/
+.steps .steps-container .steps-menu-container .step-logo {
+    max-height: 150px;
+    margin: 3em auto 0 auto;
+}
+
+/* Tercera columna*/
+.steps .steps-container .steps-form {
+    background-color: #ffffff;
+    min-height: 100%;
+}
+
+
+/* Segunda columna*/
+.steps .steps-container .steps-menu-container .step-logo {
+    max-height: 150px;
+    margin: 3em auto 0 auto;
+}
+
+.steps .steps-container .steps-form {
+    background-color: #ffffff;
+    min-height: 100%;
+}
+
+
+.steps .steps-container .steps-form .steps-form-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.steps .steps-container .steps-form .steps-form-container .step-form {
+    margin-bottom: 100vh;
+    max-height: 100vh;
+    overflow-x: auto;
+}
+
+.steps .btn-continue ,
+.ant-modal-footer .btn-continue {
+    background: #492AF9;
+    box-shadow: -4px -2px 16px #FFFFFF, 4px 2px 16px rgba(95, 157, 231, 0.48);
+    border-radius: 9px;
+
+    padding: 1em 5em;
+    /* width: auto!important; */
+
+   font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    min-width: unser !important;
+    height: unset;
+    text-transform: uppercase;
+    cursor: pointer !important;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+.dropzone-container{
+    padding: 1em 0 2em 0;
+}
+
+
+.dropzone-container .dropzone{
+    padding: 1em;
+    /*background: red;*/
+    border: 4px dashed rgba(0,0,0,0.3);
+}
+
+.dropzone-container .dropzone p{
+    text-align: center;
+}
+
+.thumb-menu{
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+    border-radius: 3px;
+    background: rgba(0,0,0,0.36);
+    position: absolute;
+}
+
+/*//#container:hover > #cube { background-color: yellow; }*/
+/*.thumb-container:hover > .thumb-menu {*/
+/*    display: block;*/
+/*    height: inherit;*/
+/*    width: inherit;*/
+/*    background: rgba(0,0,0,0.3);*/
+/*}*/

@@ -1,0 +1,30 @@
+.row-titleList {
+    margin-top: 10px;
+}
+
+.row-titleList .ant-typography{
+    font-size: 13pt !important;
+    font-weight: bold;
+    color: #7E97B8 !important;
+}
+
+.input-search{
+	max-width: 350px;
+	padding-right: 5px;
+	
+}
+
+.input-search .ant-btn{
+	height: 35px !important;
+	border: none !important;
+	border-radius: 15px;
+}
+.input-search .ant-input{
+	height: 35px !important;
+	border: none !important;
+	border-radius: 15px;
+}
+
+.input-search .ant-input-wrapper{
+	overflow: hidden;
+}

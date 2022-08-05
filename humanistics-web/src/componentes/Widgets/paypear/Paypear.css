@@ -1,0 +1,25 @@
+
+.Paypear{
+    width: 100%;
+    min-height: 100vh;
+    /*background: ;*/
+    padding-top: 10%;
+}
+
+
+#payment-processor{
+    margin: 0 auto;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+
+#paypear-submit{
+    display: block;
+    margin: 3em auto 0 auto;
+    background: #017AFF !important;
+    width: 260px;
+}
+
+.ant-tabs-nav.ant-tabs-nav-animated .ant-tabs-tab-active.ant-tabs-tab.ant-tabs-tab-disabled{
+    color: black!important;
+}
+

@@ -1,0 +1,112 @@
+[33mcommit b7a3fc87da0a359301abda374956edb15d6cd198[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: AndreaCH05 <aych05@gmail.com>
+Date:   Thu May 28 19:10:48 2020 -0700
+
+    actualizacion cobro plan step
+
+[33mcommit da8f20ec517879936df133298c889486e9688dbf[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Jennifer Llamas <jennifer.llamas@tectijuana.edu.mx>
+Date:   Wed May 27 18:24:45 2020 -0700
+
+    some producto url fix
+
+[33mcommit eb78fc80b6f94ee4308b9e366cfc2efacba1eb08[m
+Merge: 93ffa55 ab43a00
+Author: Jennifer Llamas <jennifer.llamas@tectijuana.edu.mx>
+Date:   Wed May 27 17:52:33 2020 -0700
+
+    Merge branch 'master' of https://github.com/blah-iseeyou/humanistics-web
+
+[33mcommit 93ffa5539bd6755ac1164d1968dddbbae905bb80[m
+Author: Jennifer Llamas <jennifer.llamas@tectijuana.edu.mx>
+Date:   Wed May 27 17:52:18 2020 -0700
+
+    anuncios por proyecto
+
+[33mcommit ab43a00ec20234c9c2bd25c009aa66e339966ea1[m
+Author: Alberto VIrrey <av@iseeyoutech.com>
+Date:   Wed May 27 17:33:11 2020 -0700
+
+    Se corrigio error que al actualizar un usuario despues de haberlo editado, entraba en un ciclo.
+    Dashboard.
+
+[33mcommit cf33aaf450d59b9a373249df867a83b61795b65f[m
+Merge: 1627b92 1788977
+Author: Jennifer Llamas <jennifer.llamas@tectijuana.edu.mx>
+Date:   Wed May 27 16:30:26 2020 -0700
+
+    Merge branch 'master' of https://github.com/blah-iseeyou/humanistics-web
+
+[33mcommit 1627b92b8c159735422556c332ae01d5ba2836e9[m
+Author: Jennifer Llamas <jennifer.llamas@tectijuana.edu.mx>
+Date:   Wed May 27 16:30:16 2020 -0700
+
+    anuncios crud
+
+[33mcommit 1788977ec452782fffd0e2015760747939b55adf[m
+Author: Alberto VIrrey <av@iseeyoutech.com>
+Date:   Wed May 27 07:52:41 2020 -0700
+
+    Prospectos
+
+[33mcommit 759708024c3d354819591c64800ddffc45ba6a82[m
+Merge: ab0f401 2299b2d
+Author: Jennifer Llamas <jennifer.llamas@tectijuana.edu.mx>
+Date:   Tue May 26 13:08:39 2020 -0700
+
+    Merge branch 'master' of https://github.com/blah-iseeyou/humanistics-web
+
+[33mcommit ab0f4012d95a3ddf83190029cc1421c8b6ed30e1[m
+Author: Jennifer Llamas <jennifer.llamas@tectijuana.edu.mx>
+Date:   Tue May 26 13:08:11 2020 -0700
+
+    ajustes de usuario
+
+[33mcommit 2299b2d14e44017059727ab1a18639daaad83b9f[m
+Author: AndreaCH05 <aych05@gmail.com>
+Date:   Mon May 25 19:42:13 2020 -0700
+
+    actializacion ultimas ventas
+
+[33mcommit 2be6e0d696ae60c20541d90e0d4b95ac2a0b5c7c[m
+Author: AndreaCH05 <aych05@gmail.com>
+Date:   Mon May 25 18:44:33 2020 -0700
+
+    estatus, colo aleatorio
+
+[33mcommit 1c8508c7efad775cfc8f7ae80c126fc25ae79872[m
+Author: AndreaCH05 <aych05@gmail.com>
+Date:   Mon May 25 18:02:06 2020 -0700
+
+    actualizacion setup
+
+[33mcommit 91da01dcef3fce117ae9cb7b856d7db6cf7ac9e3[m
+Merge: a4e5e8a 16a8ec4
+Author: Jennifer Llamas <jennifer.llamas@tectijuana.edu.mx>
+Date:   Sat May 23 20:52:49 2020 -0700
+
+    Merge branch 'master' of https://github.com/blah-iseeyou/humanistics-web
+
+[33mcommit a4e5e8a4e9aca08d87c4cbd1666734f376cfecb2[m
+Author: Jennifer Llamas <jennifer.llamas@tectijuana.edu.mx>
+Date:   Sat May 23 20:52:21 2020 -0700
+
+    downloading changes
+
+[33mcommit 16a8ec443215cb4f19fd29045f971af47dde9d5f[m
+Author: Alberto VIrrey <av@iseeyoutech.com>
+Date:   Sat May 23 20:23:49 2020 -0700
+
+    Vista update
+
+[33mcommit 15433436ec85bc0cd5695c9e84bc5091f8026dc9[m
+Author: Alberto VIrrey <av@iseeyoutech.com>
+Date:   Sat May 23 00:09:48 2020 -0700
+
+    Vista update
+
+[33mcommit b1a7d9042e516a5b18e62b9bd242a211d78c6afc[m
+Author: AndreaCH05 <aych05@gmail.com>
+Date:   Fri May 22 18:00:03 2020 -0700
+
+    actualizacion vista asesores

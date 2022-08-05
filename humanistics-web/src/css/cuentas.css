@@ -1,0 +1,295 @@
+.ant-layout{
+    max-height: 100vh !important;
+    overflow: auto !important;
+}
+
+.ant-layout .bg-white{
+    background: white !important;
+}
+
+/*Cuentas*/
+
+.layout-cuentas .cnt-cards{
+    max-height: calc(100% - 70px)  !important;
+    overflow: auto;
+    float: left;
+    width: 100%;
+}
+
+.card-cuenta-img h1 {
+    color:#FFF;    
+    font-size: 20pt;
+    text-align: center;
+    padding-top: 40px;
+}
+
+
+
+.layout-cuentas .ant-page-header-heading-extra{
+    float: right;
+    margin-right: 10px;
+}
+
+
+
+.layout-cuentas .ant-page-header-heading-extra .search-bar, 
+.layout-cuentas .ant-page-header-heading-extra .purple-icon{
+    float: left;
+    margin:5px
+}
+
+.layout-cuentas .ant-page-header-heading-extra .search-bar{
+    border: none;
+    
+}
+
+.layout-cuentas .ant-page-header-heading-extra .purple-icon{
+    margin-top:7.5px;
+    width: 32px !important;
+    height: 32px !important;
+}
+
+
+.layout-cuentas .component-list {
+    max-height: 85vh  !important;
+    overflow: auto;
+    float: left;
+    width: 100%;
+}
+
+.layout-cuentas .title.custom{
+    font-weight: bolder !important;
+}
+
+.layout-cuentas .ant-page-header-heading-extra .search-bar button {
+    background: #492AF9;
+    border: 3px solid rgba(211, 204, 255, 0.5);
+    color: white !important;
+    border-radius: 6px !important;
+    padding: 2px 4px;
+    margin-left: 5px !important;
+    z-index: 10;
+}
+
+
+.layout-cuentas .ant-page-header-heading-extra .search-bar input {
+border: 1px solid rgba(255, 255, 255, 0.2);
+box-sizing: border-box;
+box-shadow: inset -4px -2px 8px #FFFFFF, inset 4px 2px 8px rgba(95, 157, 231, 0.48);
+border-radius: 6px !important;
+}
+
+.layout-cuentas .ant-input-search > .ant-input-group > .ant-input-group-addon:last-child {
+    left: -1px;
+    top: 1px;
+    border-radius: 6px;
+}
+
+.layout-cuentas .title.custom .ant-page-header-heading-extra {
+    border-radius: 10px !important;
+}
+
+.textGray{
+    color:#7E97B8;
+    font-size: 20px;
+}
+
+
+/*Cuenta detalle*/
+
+.layout-cuenta .ant-page-header {
+    padding: 16px 15px !important ;
+}
+
+.layout-cuenta .ant-page-header-heading-title,
+.layout-cuenta .font_color{
+    text-transform: uppercase !important;
+    color:#636D73 !important;
+
+}
+
+.layout-cuenta .spnAccionesUsu  a {
+    margin: 5px;
+}
+
+.layout-cuenta .list-proyectos .ant-spin-container{
+    max-height: 58vh ;
+    overflow: auto;
+
+}
+
+.mt-10{
+    margin-top: 10px !important;
+}
+
+.layout-cuenta .list-proyecto-card{
+    padding: 5px 8px;
+}
+
+.layout-cuenta .list-proyecto-card .img-proyecto {
+    border-radius: 15px !important;
+}
+
+.layout-cuenta .list-proyecto-card span{
+    font-weight: bold !important;
+    color: #7E97B8 !important;
+}
+
+
+
+
+/*Cuenta - plan*/
+.layout-cuenta-plan .ant-page-header {
+    padding: 16px 0px !important ;
+}
+
+.layout-cuenta-plan .ant-layout-content .container-shadow  {
+    overflow: auto;
+    max-height: 99%;
+}
+
+
+.layout-cuenta-plan .ant-page-header-heading-title{
+text-transform: uppercase ;
+color:  #636D73 !important;
+font-weight: bold !important;
+}
+
+.layout-cuenta-plan .font_color{
+ 
+font-family: George;
+font-style: normal;
+font-weight: bold;
+
+line-height: 20px;
+/* or 67% */
+
+color: rgba(99, 109, 115, 0.6);
+
+}
+
+
+
+.layout-cuenta-plan .row-info-plan{
+    margin-bottom: 20px;
+}
+
+.layout-cuenta-plan .cuenta-plan-info  span{
+    color: #7E97B8 !important;
+    margin: 10px 0px !important;
+}
+
+.layout-cuenta-plan .list-invoices .ant-spin-container{
+    max-height: 38vh !important;
+    overflow: auto;
+}
+
+
+
+ 
+
+/*Cuenta - proyecto*/
+.layout-cuenta-proyecto .ant-page-header {
+    padding: 16px 0px !important ;
+    text-transform: uppercase !important;
+    color:#636D73 !important;
+
+
+}
+
+.layout-cuenta-proyecto .font_color.up {
+    text-transform: uppercase !important;
+    color: rgba(99, 109, 115, 0.6)  !important;
+    
+    font-family: George;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 20px;
+    font-size: 20px;
+     
+
+}
+
+
+.purple-icon,
+.purple-icon:hover,
+.purple-icon:active,
+.purple-icon:focus
+{
+background:  #492af9 !important;
+color :#FFF;
+}
+
+.purple-icon:disabled,
+.purple-icon:disabled:hover{
+background:  #492af9b7 !important;
+color :#FFF;
+}
+
+
+.card-cuenta{
+    height: 400px !important;
+}
+
+.card-cuenta .ant-card-body {
+    padding-bottom: 10px !important;
+    min-height: 350px !important;
+}
+
+
+.card-cuenta .row-info-proyecto{
+    display: block;
+    height: 100px !important;
+    padding-left: 5px;
+}
+
+.card-cuenta .row-info-proyecto .ant-col{
+    height: 20px !important;
+    
+    margin: 0px  !important;
+    padding: 0px  !important;
+    float: left;
+    width: 100%;
+}
+
+.card-cuenta .ant-card-body .ant-list-items{
+    max-height: 135PX !important;
+    overflow: auto !important;
+    padding-left: 5px;
+}
+
+
+.spnAccionesUsu button {
+    margin:0px 5px !important;
+}
+
+.spnAccionesUsu .red-icon,
+.spnAccionesUsu .red-icon:hover,
+.spnAccionesUsu .red-icon:active,
+.spnAccionesUsu .red-icon:focus {
+    background: #FE336D;
+    color: white;
+    border: 3px solid rgba(255, 158, 153, 0.5);
+}
+
+.spnAccionesUsu button svg{
+    color:#FFF !important;
+}
+
+.green-icon {
+    background: #2af9bb;
+    border:3px solid rgba(211, 204, 255, 0.5);
+    color: white;
+    border-radius: 6px;
+    padding: 2px 4px;
+}
+
+
+.spnAccionesUsu .green-icon,
+.spnAccionesUsu .green-icon:hover,
+.spnAccionesUsu .green-icon:active,
+.spnAccionesUsu .green-icon:focus {
+    background: #2af9bb;
+    color: white;
+    border:3px solid rgba(204, 255, 252, 0.5);
+}
